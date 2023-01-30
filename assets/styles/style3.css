@@ -6,13 +6,18 @@
 
 header {
     background-image: url("../images/design1_image1.jpg");
+    top: 50px;
     height: 100px;
     position: relative;
 }
 
 nav {
-    margin-left: 10px;
-    display: inline-block;
+    margin-left: 100px;
+    display: inline;
+    position: absolute;
+    right: 100px;
+    top: 40px;
+
 }
 
 main {
@@ -20,25 +25,29 @@ main {
 }
 
 a {
-    display: block;
-    margin-bottom: 30px;
+    display: inline-block;
+    background-color: cornflowerblue;
+    text-decoration: none;
+    padding: 5px;
+    border: 2px solid black;
+    margin-right: 5px;
 }
 
 a[href="#"] {
-    text-decoration: none;
+    background-color: aquamarine;
 }
 
 .logo {
     width: 100px;
     position: absolute;
-    top: 80px;
-    right: 100px;
+    top: 180px;
+    left: 40px;
 }
 
 .imagen {
     width: 300px;
     display: none;
-}
+} 
 
 
 figure {
@@ -46,14 +55,18 @@ figure {
 }
 
 h1 {
-    display: inline-block;
+    /* display: inline-block; */
+    position: relative;
+    top: -60px;
 }
 
 section {
     display: inline-block;
-    margin-left: 30px;
+    margin-left: 200px;
+    top: 240px;
     position: absolute;
 }
+
 
 article {
     margin-bottom: 20px;
@@ -61,13 +74,17 @@ article {
 }
 
 .nota {
+    width: 100%;
     height: 50px;
     background-color: black;
     color: white;
     text-align: center;
     font-size: 30px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    /* margin-top: 5px; */
+    /* margin-bottom: 5px; */
     padding-top: 5px;
+    top: 160px;
+    position: absolute;
+    display: block;
 
 }

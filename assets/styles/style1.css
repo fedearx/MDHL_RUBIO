@@ -39,6 +39,10 @@ section {
 }
 
 article {
-    margin-top: 20px;
+    margin-bottom: 20px;
     width: 500px;
+}
+
+.nota {
+    display: none;
 }
