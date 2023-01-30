@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    margin-top: 10px;
+    margin-left: 110px;
+    height: 30px;
+    display: inline-block;
+}
+
+a[href="#"] {
+    text-decoration: none;
+}
+
+.logo {
+    width: 100px;
+}
+
+.imagen {
+    width: 300px;
+}
+
+
+figure {
+    display: inline-block;
+}
+
+h1 {
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 30px;
+    position: absolute;
+}
+
+article {
+    margin-top: 20px;
+    width: 500px;
+}
