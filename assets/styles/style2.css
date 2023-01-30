@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url("../images/design1_image1.jpg");
+    height: 100px;
+    position: relative;
+}
+
+nav {
+    margin-left: 110px;
+    display: inline-block;
+    background-color: black;
+}
+
+main {
+    display: inline;
+}
+
+a {
+    display: block;
+    margin-top: 50px;
+}
+
+a[href="#"] {
+    text-decoration: none;
+}
+
+.logo {
+    width: 100px;
+    position: absolute;
+    top: 80px;
+    right: 100px;
+}
+
+.imagen {
+    width: 300px;
+    display: none;
+}
+
+
+figure {
+    display: inline-block;
+}
+
+h1 {
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 30px;
+    position: absolute;
+}
+
+article {
+    margin-top: 20px;
+    width: 500px;
+}
+
+.nota {
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 5px;
+    padding-top: 5px;
+
+}
