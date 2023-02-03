@@ -78,7 +78,7 @@ header h1 {
     padding-left: 10px;
 }
 
-section {
+div {
     display: inline-block;
     margin-left: 20px;
     margin-top: 10px;
@@ -87,7 +87,7 @@ section {
     line-height: 2rem;
 }
 
-section h2 {
+div h2 {
     margin-bottom: 10px;
 }
 
