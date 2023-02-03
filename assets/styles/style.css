@@ -32,6 +32,15 @@ nav a {
     text-align: center;
 }
 
+nav a:hover {
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+a {
+    text-decoration: none;
+}
+
 a[href="#"] {
     background-color: aquamarine;
 }
@@ -128,11 +137,15 @@ table td:last-child {
 table {
     vertical-align: middle;
     text-align: center;
-    background-color: cornflowerblue;
-    padding: 20px;
-    border-radius: 10px;
+    padding: 6px;
+    border-radius: 30px;
+    border: 2px solid black;
 }
 
 span {
     font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
 }
