@@ -86,7 +86,7 @@ span {
     flex-wrap: wrap;
     gap: 15px;
     justify-content: space-around;
-    background-color: #C8503A;
+    /* background-color: #C8503A; */
     width: 100vw;
     
 }
@@ -127,6 +127,8 @@ table td:last-child {
 .notainfo {
     width: 100vw;
     text-align: left;
+    margin-left: 2em;
+    margin-bottom: 2em;
 }
 
 .datos {
@@ -144,4 +146,53 @@ table td:last-child {
 
 div h2 {
     margin: 15px;
+}
+
+.flexformulario {
+    width: 90vw;
+    margin-left: 2vw;
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: column;
+    /* gap: 30px; */
+    font-size: 1.2em;
+
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 1em;
+    text-align: center;
+}
+
+form p {
+    /* text-align: center; */
+    line-height: 1.4em;
+    text-align: justify;
+    margin: 1em;
+}
+
+select {
+    font-size: 1em;
+    width: 15vw;
+}
+
+.boton {
+    width: 20vw;
+    height: 10vh;
+    border: 1px solid #C8503A;
+    border-radius: 15px;
+    background-color: #F8E12E;
+    margin-left: 40%;
+    margin-bottom: 20px;
+
+}
+
+.mapas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+
 }
