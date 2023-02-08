@@ -13,7 +13,7 @@ header {
     align-items: center;
     justify-content: space-around;
     flex-direction: row-reverse;
-    
+
 }
 
 .logo {
@@ -61,7 +61,7 @@ a[href="#"] {
 .imagen {
     width: 100%;
     border-radius: 20px;
-} 
+}
 
 .nota {
     width: 100vw;
@@ -113,12 +113,15 @@ table {
 table td:first-child {
     width: 100px;
 }
+
 table td:nth-child(2) {
     width: 100px;
 }
+
 table td:nth-child(3) {
     width: 100px;
 }
+
 table td:last-child {
     width: 100px;
 }
@@ -228,88 +231,88 @@ iframe {
 
 }
 
-@media only screen and (min-width: 375px) and (max-width: 767px)  {
+@media only screen and (min-width: 375px) and (max-width: 767px) {
 
-        header h1 {
-            font-size: 1.5em;
-            text-align: center;
-        }
+    header h1 {
+        font-size: 1.5em;
+        text-align: center;
+    }
 
-        nav a {
-            font-size: 0.7em;
-            padding-top: 0.7em;
-        }
+    nav a {
+        font-size: 0.7em;
+        padding-top: 0.7em;
+    }
 
-        .flexcontainer {
-            display: flex;
-            font-size: 1em;
-            padding-bottom: 50px;
-        }
+    .flexcontainer {
+        display: flex;
+        font-size: 1em;
+        padding-bottom: 50px;
+    }
 
-        .caja {
-            width: 90%;
-            margin: 10px;
+    .caja {
+        width: 90%;
+        margin: 10px;
 
-        }
-    
-        .notainfo {
-            width: 90vw;
-            text-align: justify;
-        }
-    
-        .mapas {
-            width: 100vw;
-        }
+    }
 
-        .school {
-            width: 80vw;
-        }
-    
-        .tabla {
-            margin-top: 1em;
-            width: 100%;
-        }
+    .notainfo {
+        width: 90vw;
+        text-align: justify;
+    }
 
-        iframe {
-            width: 300px;
-        }
+    .mapas {
+        width: 100vw;
+    }
 
-        .datos {
-            flex-direction: column;
-        }
+    .school {
+        width: 80vw;
+    }
 
-        .flexformulario {
-            display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
-        }
+    .tabla {
+        margin-top: 1em;
+        width: 100%;
+    }
+
+    iframe {
+        width: 300px;
+    }
+
+    .datos {
+        flex-direction: column;
+    }
+
+    .flexformulario {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
 
 
-        input, label {
-            font-size: 1em;
-        }
-        
-        form p {
-            line-height: 1.2em;
-            font-size: 0.8em;
-            
-        }
-        
-        select {
-            font-size: 1em;
-            width: 50vw;
-        }
-        
-        .boton {
-            width: 40vw;
-            height: 10vh;
-            border: 1px solid #C8503A;
-            border-radius: 15px;
-            background-color: #F8E12E;
-            margin-left: 30%;
-            margin-bottom: 20px;
-        
-        }
-        
+    input,
+    label {
+        font-size: 1em;
+    }
+
+    form p {
+        line-height: 1.2em;
+        font-size: 0.8em;
+
+    }
+
+    select {
+        font-size: 1em;
+        width: 50vw;
+    }
+
+    .boton {
+        width: 40vw;
+        height: 10vh;
+        border: 1px solid #C8503A;
+        border-radius: 15px;
+        background-color: #F8E12E;
+        margin-left: 30%;
+        margin-bottom: 20px;
+
+    }
+
 }
-    
